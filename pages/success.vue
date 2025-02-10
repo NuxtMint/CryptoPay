@@ -1,22 +1,6 @@
 <template>
   <div class="relative min-h-screen bg-slate-900 overflow-x-hidden">
     <div class="container mx-auto px-6 py-8 text-white">
-      <!-- Header with Logo -->
-      <div class="flex items-center justify-center mb-12">
-        <NuxtLink to="/" class="flex items-center">
-          <img
-            src="/images/logo.png"
-            alt="ZeroTraceVPN Logo"
-            class="h-8 hover:scale-105 transition"
-          />
-          <span
-            class="ml-2 text-xl font-bold bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent"
-          >
-            ZeroTraceVPN
-          </span>
-        </NuxtLink>
-      </div>
-
       <!-- Success Message -->
       <div class="max-w-2xl mx-auto text-center">
         <div class="flex justify-center mb-8">

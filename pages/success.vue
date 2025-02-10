@@ -19,7 +19,6 @@
           Thank you for your purchase! Our team is currently reviewing your
           payment.
         </p>
-
         <!-- Status Card -->
         <div
           class="bg-slate-800/50 rounded-2xl p-8 border border-blue-500/20 mb-8"
@@ -34,10 +33,9 @@
           </div>
           <p class="text-gray-300">
             Once your payment is validated, you'll be able to access your
-            personal space and start using ZeroTraceVPN.
+            personal space and start using our app.
           </p>
         </div>
-
         <!-- Next Steps -->
         <div class="space-y-6 mb-12">
           <div class="bg-slate-800/30 p-6 rounded-xl">
@@ -59,9 +57,6 @@
                 />
                 <p class="text-gray-300 text-left">
                   Access your personal space at
-                  <NuxtLink to="/u" class="text-blue-400 hover:text-blue-300"
-                    >/u</NuxtLink
-                  >
                 </p>
               </div>
               <div class="flex items-start">
@@ -70,7 +65,7 @@
                   class="h-6 w-6 text-blue-400 mr-3 flex-shrink-0"
                 />
                 <p class="text-gray-300 text-left">
-                  Download and set up the VPN client
+                  Download and set up your app
                 </p>
               </div>
             </div>
@@ -79,21 +74,20 @@
 
         <!-- Action Buttons -->
         <div class="flex flex-col sm:flex-row justify-center gap-4">
-          <NuxtLink
+          <div
             to="/u"
             class="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-full font-semibold transition text-center"
           >
             Go to Personal Space
-          </NuxtLink>
-          <NuxtLink
+          </div>
+          <div
             to="/"
             class="border border-blue-500 hover:bg-blue-500/10 px-8 py-3 rounded-full font-semibold transition text-center"
           >
             Return to Homepage
-          </NuxtLink>
+          </div>
         </div>
       </div>
-
       <!-- Support Section -->
       <div class="mt-12 text-center">
         <p class="text-gray-400">
@@ -106,11 +100,3 @@
     </div>
   </div>
 </template>
-
-<script setup lang="ts">
-// Redirect if accessed directly without payment
-onMounted(() => {
-  // You might want to add logic here to verify if the user came from a valid payment
-  // For now, we'll leave it open for demonstration
-});
-</script>

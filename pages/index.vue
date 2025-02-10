@@ -277,6 +277,7 @@ const cryptoAmounts = ref<{ [key: string]: string }>({
 
 const showHowToBuyModal = ref(false);
 
+// TODO : Extract to a config file?
 const cryptoExchanges = [
   {
     name: 'MoonPay',
